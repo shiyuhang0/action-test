@@ -23,7 +23,7 @@ jobs:
                     "elements": [{
                             "tag": "div",
                             "text": {
-                                    "content": "Serverless Connection Test Failed",
+                                    "content": "",
                                     "tag": "lark_md"
                             }
                     }, {
@@ -43,7 +43,8 @@ jobs:
                             "title": {
                                     "content": "Serverless Connection Test Failed",
                                     "tag": "plain_text"
-                            }
+                            },
+                            "template": "red"
                     }
                 }
             }
