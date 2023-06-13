@@ -12,7 +12,7 @@ jobs:
     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
     steps:
       - name: Send Notification
-        uses: northwang-lucky/chatbot-webhook-client@v1.0.1
+        uses: northwang-lucky/chatbot-webhook-client@v1.1.1
         with:
           app: Lark
           webhook: ${{ secrets.NOTIFY_WEBHOOK }}
