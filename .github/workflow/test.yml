@@ -1,0 +1,19 @@
+name: Serverless Connect Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Try to success
+        run: echo "success"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Try to fail
+        run: exit 1
+
