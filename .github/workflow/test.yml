@@ -1,7 +1,9 @@
 name: Serverless Connect Test
 
 on:
+  push:
   workflow_dispatch:
+
 
 jobs:
   job1:
