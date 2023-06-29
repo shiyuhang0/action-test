@@ -23,7 +23,7 @@ jobs:
                     "elements": [{
                             "tag": "div",
                             "text": {
-                                    "content": "**Message** \nServerless connection test failed",
+                                    "content": "**Message** \nServerless connection test #${{ github.event.workflow_run.run_number }} failed",
                                     "tag": "lark_md"
                             }
                     }, {
