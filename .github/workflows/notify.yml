@@ -33,7 +33,7 @@ jobs:
                                             "content": "More information",
                                             "tag": "lark_md"
                                     },
-                                    "url": "${{ github.event.workflow_run.html_url }}
+                                    "url": ${{ github.event.workflow_run.html_url }}
                                     "type": "default",
                                     "value": {}
                             }],
